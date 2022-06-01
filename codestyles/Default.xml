@@ -1,0 +1,26 @@
+<code_scheme name="Default" version="173">
+  <option name="AUTODETECT_INDENTS" value="false" />
+  <CssCodeStyleSettings>
+    <option name="HEX_COLOR_UPPER_CASE" value="true" />
+    <option name="USE_DOUBLE_QUOTES" value="false" />
+  </CssCodeStyleSettings>
+  <HTMLCodeStyleSettings>
+    <option name="HTML_ATTRIBUTE_WRAP" value="0" />
+  </HTMLCodeStyleSettings>
+  <JSCodeStyleSettings version="0">
+    <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
+    <option name="USE_DOUBLE_QUOTES" value="false" />
+  </JSCodeStyleSettings>
+  <PHPCodeStyleSettings>
+    <option name="COMMA_AFTER_LAST_ARRAY_ELEMENT" value="true" />
+  </PHPCodeStyleSettings>
+  <ScssCodeStyleSettings>
+    <option name="HEX_COLOR_UPPER_CASE" value="true" />
+    <option name="HEX_COLOR_SHORT_FORMAT" value="true" />
+    <option name="USE_DOUBLE_QUOTES" value="false" />
+  </ScssCodeStyleSettings>
+  <codeStyleSettings language="Markdown">
+    <option name="RIGHT_MARGIN" value="80" />
+    <option name="WRAP_ON_TYPING" value="0" />
+  </codeStyleSettings>
+</code_scheme>

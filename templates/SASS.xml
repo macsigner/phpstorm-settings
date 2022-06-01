@@ -1,0 +1,32 @@
+<templateSet group="SASS">
+  <template name="/sg" value="/*&#10;.$VAR$&#10;&#10;:hover - hover&#10;.$VAR$--is-active - aktiv entspricht hover&#10;&#10;Markup:&#10;&lt;div class=&quot;$VAR$ {{modifier_class}}&quot;&gt;&#10;&#9;&lt;img src=&quot;http://place-hold.it/400x200&quot; style=&quot;width: 100%&quot;/&gt;&#10;&#9;&lt;a href=&quot;#&quot; class=&quot;$VAR$__modifier&quot;&gt;&lt;/a&gt;&#10;&lt;/div&gt;&#10;&#10;Styleguide classes.$VAR$&#10;*/&#10;&#10;.$VAR$ {&#10;}" description="Styleguide" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="regularExpression(regularExpression(fileNameWithoutExtension(), &quot;_&quot;, &quot;-&quot;),&quot;^-&quot;, &quot;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="/sgs" value="/****************************************************************************&#10; *  MEDIA MOTION AG                                                         *&#10; ****************************************************************************&#10;&#10;    Funktion      $VAR$ bem module&#10;&#10;*****************************************************************************/&#10;&#10;/*&#10;.$VAR$&#10;&#10;Styleguide classes.$VAR$&#10;*/&#10;&#10;.$VAR$ {&#10;    $END$&#10;}" description="Styleguide short" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="regularExpression(regularExpression(fileNameWithoutExtension(), &quot;_&quot;, &quot;-&quot;),&quot;^-&quot;, &quot;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="/sgm" value="/* **************************************************************************&#10; *  MAC SIGNER                                                              *&#10; ****************************************************************************&#10;&#10;    Funktion      $VAR$ bem module&#10;&#10;*****************************************************************************/&#10;&#10;/*&#10;.$VAR$&#10;&#10;Styleguide classes.$VAR$&#10;*/&#10;&#10;.$VAR$ {&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="regularExpression(regularExpression(fileNameWithoutExtension(), &quot;_&quot;, &quot;-&quot;),&quot;^-&quot;, &quot;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="/fm" value="@include media-desktop-small {&#10;    font-size: $font-size-$VAR$--desktop-small;&#10;}&#10;&#10;@include media-tablet {&#10;    font-size: $font-size-$VAR$--tablet;&#10;}&#10;&#10;@include media-mobile {&#10;    font-size: $font-size-$VAR$--mobile;&#10;}" description="Font medias" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="/hc" value="/**&#10; * $VAR$ bem module&#10; */&#10;&#10;.$VAR$ {&#10;    $END$&#10;}" description="Styleguide short" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="regularExpression(regularExpression(fileNameWithoutExtension(), &quot;_&quot;, &quot;-&quot;),&quot;^-&quot;, &quot;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+</templateSet>

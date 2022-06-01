@@ -1,0 +1,13 @@
+<application>
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="OPEN_SSH" host="vsa-nesetu.cyon.net" id="09f369aa-5a63-4a01-883e-7d19e026b8cd" port="22" customName="lcsys.ch" nameFormat="CUSTOM" username="lcsysch" useOpenSSHConfig="true">
+        <option name="customName" value="lcsys.ch" />
+      </sshConfig>
+      <sshConfig authType="OPEN_SSH" host="vsa-moxuda.cyon.net" id="e896dea0-4ecb-4242-b90a-0b821f1ab63a" port="22" customName="monastic.ch" nameFormat="CUSTOM" username="monastic">
+        <option name="customName" value="monastic.ch" />
+      </sshConfig>
+      <sshConfig authType="OPEN_SSH" host="schofseckel.ch" id="350df27c-41a2-4225-9428-44ba38cfb742" port="22" nameFormat="DESCRIPTIVE" username="schofsec" />
+    </configs>
+  </component>
+</application>

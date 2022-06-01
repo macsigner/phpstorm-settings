@@ -1,0 +1,41 @@
+<templateSet group="PHP">
+  <template name="php" value="&lt;?php $END$ ?&gt;" description="php tag" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="p=" value="&lt;?= $SELECTION$ ?&gt;" description="php fish" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dump" value="&lt;?php dump($END$) ?&gt;" description="Symfony Dump" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="die" value="die(&quot;&lt;pre&gt;&quot; . print_r($var$, true) . &quot;&lt;/pre&gt;&quot;);" description="die php statement" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="/cbh" value="/**&#10; * @package   Memo\$BUNDLE$&#10; * @author    Media Motion AG&#10; * @license   LGPL-3.0+&#10; * @copyright Media Motion AG&#10; */&#10;&#10;namespace Memo\CategoryBundle\Widget;&#10;namespace $NAMESPACE$;&#10;&#10;class $CLASS$ {&#10;    $END$&#10;}" description="Contao Bundle Header" toReformat="true" toShortenFQNames="true">
+    <variable name="BUNDLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAMESPACE" expression="phpQualifiedClassName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="CLASS" expression="phpClassName()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="/clang" value="{{iflng::en}}$CLIP${{iflng::de}}$CLIP${{iflng}}" description="Contao Language Inserttags" toReformat="false" toShortenFQNames="true">
+    <variable name="CLIP" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
